@@ -35,7 +35,9 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
+  "transform": {
+      "\\.js$": "<rootDir>/node_modules/babel-jest"
+    }, "devDependencies": {
     "eslint": "^5.12.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^7.0.0",
